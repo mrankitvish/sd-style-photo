@@ -14,19 +14,21 @@ In the "Style Image" tab, you can upload an image and apply a style to it. The a
 
 This project requires the following dependencies:
 
-- `json`
 - `requests`
-- `io`
-- `base64`
-- `PIL` (Pillow)
 - `gradio`
+- `python-dotenv`
+
+To install all dependencies:
+``bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
 To run the project, simply execute the script using a Python interpreter:
 
 ```bash
-python main.py
+python style-photo.py
 ```
 
 This will launch the Gradio interface in your web browser. You can then interact with the interface to generate images from text prompts and apply styles to images.
