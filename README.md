@@ -18,8 +18,8 @@ This project requires the following dependencies:
 - `gradio`
 - `python-dotenv`
 
-To install all dependencies:
-``bash
+To install dependencies:
+```bash
 pip install -r requirements.txt
 ```
 
